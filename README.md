@@ -6,7 +6,6 @@
 * **Actividad:** `slcact1_t4`
 * **Autor:** Sarai Luna Cenobio
 * **Grupo:** 7SD
-* **Versión de Java:** OpenJDK 17 (LTS)
 * **Puerto de ejecución (VPS):** `8082`
 
 ---
