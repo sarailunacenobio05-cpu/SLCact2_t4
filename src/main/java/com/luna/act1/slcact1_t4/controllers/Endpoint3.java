@@ -20,8 +20,6 @@ public class Endpoint3 {
         respuesta.put("Materia 4","Sistemas Programables");
         respuesta.put("Materia 5","Taller de investigacion");
         respuesta.put("Materia 6","PLF");
-
-
         return respuesta;
     }
     
