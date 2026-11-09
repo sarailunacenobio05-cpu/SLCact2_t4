@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de empleado</title>
+</head>
+<body>
+    <h1>Detalle de empleado</h1>
+    <p>Proyecto de: <span th:text="${autor}"></span></p>
+
+    <div th:if="${empleado != null}">
+        <p>ID: <span th:text="${empleado.id}"></span></p>
+        <p>Nombre: <span th:text="${empleado.nombre}"></span></p>
+        <p>Apellido: <span th:text="${empleado.apellido}"></span></p>
+        <p>Puesto: <span th:text="${empleado.puesto}"></span></p>
+        <p>Edad: <span th:text="${empleado.edad}"></span></p>
+    </div>
+    <p th:if="${empleado == null}">No existe un empleado con ese ID.</p>
+
+    <a th:href="@{/empleados}">Volver a la lista</a>
+</body>
+</html>
