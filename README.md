@@ -1,4 +1,4 @@
-# Actividad 2. MVC con Spring Boot y Thymeleaf
+# Actividad 2. Spring MVC - Vistas con Thymeleaf, DTOs y Manejo de Peticiones
 
 * **Actividad:** `slcact2_t4`
 * **Autor:** Sarai Luna Cenobio
